@@ -406,6 +406,11 @@ h3.hello span
 
 /* About */
 
+a
+{
+    color: var(--skin-color);
+}
+
 .about .about-content  
 {
     flex: 0 0 100%;
