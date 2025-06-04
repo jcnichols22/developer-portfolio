@@ -737,6 +737,8 @@ a
 .portfolio .portfolio-item-inner .portfolio-img img
 {
     width: 100%;
+    height: 200px; /* or whatever fixed height you want */
+    object-fit: cover;
     display: block;
 
 }
