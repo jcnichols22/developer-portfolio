@@ -930,3 +930,11 @@ a
     opacity: 0;
 }
 
+.portfolio-caption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--text-black-700);
+    line-height: 1.4;
+    text-align: left;
+}
+

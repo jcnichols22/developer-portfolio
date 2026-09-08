@@ -32,7 +32,6 @@
                 <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
                 <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
                 <li><a href="#services"><i class="fa fa-list"></i>Services</a></li>
-                <li><a href="#projects"><i class="fa fa-code-branch"></i>Projects</a></li>
                 <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
                 <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
             </ul>
@@ -470,79 +469,6 @@
                 </div>
             </section>
             <!-- Services section end-->
-            <!-- Projects section start -->
-            <section class="service section" id="projects">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>Projects</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <!-- Project item start-->
-                        <div class="service-item padd-15">
-                            <div class="service-item-inner">
-                                <div class="icon">
-                                    <i class="fa fa-warehouse"></i>
-                                </div>
-                                <h4>The Armory</h4>
-                                <p>A dead-simple, self-hosted hardware inventory tracker for homelabs. Print a QR code, stick it on a device, scan it with your phone and instantly see specs, serial, and status — no app, no login to view. Built for people who tried Snipe-IT and wanted something lighter. FastAPI + HTMX + SQLite in one container.</p>
-                                <p><a href="https://github.com/jcnichols22/thearmory" target="_blank" class="project-link">View on GitHub &rarr;</a></p>
-                            </div>
-                        </div>
-                        <!-- Project item end-->
-                        <!-- Project item start-->
-                        <div class="service-item padd-15">
-                            <div class="service-item-inner">
-                                <div class="icon">
-                                    <i class="fa fa-location-dot"></i>
-                                </div>
-                                <h4>Wayfinder</h4>
-                                <p>A self-hosted, mobile-first PWA for field IT support techs to track site visits, tickets, time onsite, and mileage — replacing notes apps and spreadsheets with fast, one-handed entry and CSV exports for Workday and ServiceNow. Offline-first, with automatic mileage via a pluggable routing provider.</p>
-                                <p><a href="https://github.com/jcnichols22/Wayfinder" target="_blank" class="project-link">View on GitHub &rarr;</a></p>
-                            </div>
-                        </div>
-                        <!-- Project item end-->
-                        <!-- Project item start-->
-                        <div class="service-item padd-15">
-                            <div class="service-item-inner">
-                                <div class="icon">
-                                    <i class="fa fa-server"></i>
-                                </div>
-                                <h4>Velaris — Home Lab Infrastructure</h4>
-                                <p>A two-node Proxmox VE cluster in a 20U rack running containerized and virtualized services for media, backups, DNS, ad-blocking, documentation, and remote access. Network-wide segmentation and access control via Omada-managed VLANs, with Tailscale mesh VPN for secure remote access without exposed ports. Wazuh for security monitoring and AdGuard for network-wide DNS filtering.</p>
-                                <p><a href="https://github.com/jcnichols22/Homelab" target="_blank" class="project-link">View the Homelab repo &rarr;</a></p>
-                            </div>
-                        </div>
-                        <!-- Project item end-->
-                        <!-- Project item start-->
-                        <div class="service-item padd-15">
-                            <div class="service-item-inner">
-                                <div class="icon">
-                                    <i class="fa fa-hard-drive"></i>
-                                </div>
-                                <h4>Storage &amp; Media Platform</h4>
-                                <p>An Unraid server managing 12 drives, providing centralized NFS-backed storage shares consumed by Proxmox VMs and LXC containers. Runs a Docker-based service stack (Jellyfin, Nextcloud, NetBox, and others) across Linux hosts, with persistent data backed by Unraid storage. Automation playbooks maintained in version control.</p>
-                                <p><a href="https://github.com/jcnichols22/Homelab" target="_blank" class="project-link">View the Homelab repo &rarr;</a></p>
-                            </div>
-                        </div>
-                        <!-- Project item end-->
-                        <!-- Project item start-->
-                        <div class="service-item padd-15">
-                            <div class="service-item-inner">
-                                <div class="icon">
-                                    <i class="fa fa-link"></i>
-                                </div>
-                                <h4>The Lab Rack</h4>
-                                <p>My public-facing home on the web — a link hub styled like an actual rack-mounted server chassis, pointing to my YouTube, Twitch, and the rest of where I publish. Also where I document the homelab and self-hosting journey as I go. Source in the TLR-Linkhub repo, served via GitHub Pages.</p>
-                                <p><a href="https://thelabrack.com" target="_blank" class="project-link">Visit The Lab Rack &rarr;</a> &nbsp;·&nbsp; <a href="https://github.com/jcnichols22/TLR-Linkhub" target="_blank" class="project-link">Source on GitHub</a></p>
-                            </div>
-                        </div>
-                        <!-- Project item end-->
-                    </div>
-                </div>
-            </section>
-            <!-- Projects section end-->
             <!-- Portfolio section start -->
             <section class="portfolio section" id="portfolio">
                 <div class="container">
@@ -566,6 +492,7 @@
                                     <div class="portfolio-overlay">The Armory</div>
                                     </a>
                                 </div>
+                                <p class="portfolio-caption">Self-hosted hardware inventory tracker for homelabs — QR labels, free-text add, instant search.</p>
                             </div>
                         </div>
                         <!-- portfolio item end -->
@@ -578,6 +505,7 @@
                                     <div class="portfolio-overlay">Wayfinder</div>
                                     </a>
                                 </div>
+                                <p class="portfolio-caption">Self-hosted, offline-first PWA for field IT support — visits, tickets, mileage, Workday/ServiceNow CSV export.</p>
                             </div>
                         </div>
                         <!-- portfolio item end -->
@@ -590,6 +518,7 @@
                                     <div class="portfolio-overlay">Homelab</div>
                                     </a>
                                 </div>
+                                <p class="portfolio-caption">My self-hosted infrastructure — Proxmox, Docker stacks, VLAN-segmented networking, Tailscale.</p>
                             </div>
                         </div>
                         <!-- portfolio item end -->
@@ -602,6 +531,7 @@
                                     <div class="portfolio-overlay">Ansible</div>
                                     </a>
                                 </div>
+                                <p class="portfolio-caption">Playbooks for provisioning, patching, and maintaining the lab.</p>
                             </div>
                         </div>
                         <!-- portfolio item end -->
@@ -614,6 +544,7 @@
                                     <div class="portfolio-overlay">NixOS Config</div>
                                     </a>
                                 </div>
+                                <p class="portfolio-caption">NixOS system configuration for my daily-driver Linux box.</p>
                             </div>
                         </div>
                         <!-- portfolio item end -->
@@ -626,6 +557,7 @@
                                     <div class="portfolio-overlay">The Lab Rack</div>
                                     </a>
                                 </div>
+                                <p class="portfolio-caption">My link hub and homelab publishing home — styled like a 1U rack faceplate.</p>
                             </div>
                         </div>
                         <!-- portfolio item end -->
